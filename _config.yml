@@ -1,6 +1,6 @@
-title:              Dan Joshua Blog 
+title:              Dan Santivañez
 email:              dan.joshua.santivanez@gmail.com
-description:        Blog personal y proyectos.
+description:        Personal blog, projects and cheat sheets
 author:             Dan Santivañez Gutarra
 baseurl:            ""
 url:                "https://danjoshuasg.github.io"
@@ -8,7 +8,7 @@ url:                "https://danjoshuasg.github.io"
 # Social Profiles
 twitter_username:   DanGutarra
 github_username:    danjoshuasg
-facebook_username:  Dan Santivañez
+facebook_username:  Dan Santivañez Gutarra
 instagram_username:  
 linkedin_username:
 
@@ -23,3 +23,5 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+# bundle exec jekyll serve
