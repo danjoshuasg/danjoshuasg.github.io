@@ -1,0 +1,55 @@
+---
+layout: post
+title: "¿Qué es la regla de Pareto?"
+subtitle:  Y cómo su uso nos ayudaría a ser más productivos.
+date: 2021-04-07 
+background: '/img/posts/01.jpg'
+---
+# Resumen
+
+El grial de nuestros días es probablemente tener ese balance entre lo profesional, las relaciones interpersonales y para uno mismo. Buscar, por ende, el tiempo correcto para cada espacio se logra con una estrategia para planificar adecuadamente el logro de nuestros   
+
+## De la teoría a la práctica.
+
+Antes de 
+
+The Pareto principle states that for many outcomes, roughly 80% of consequences come from 20% of the causes (the “vital few”).[1] Other names for this principle are the 80/20 rule, the law of the vital few, or the principle of factor sparsity
+
+
+Pareto's observation was in connection with population and wealth. Pareto noticed that approximately 80% of Italy's land was owned by 20% of the population.[7] He then carried out surveys on a variety of other countries and found to his surprise that a similar distribution applied.
+
+A chart that gave the effect a very visible and comprehensible form, the so-called "champagne glass" effect,[8] was contained in the 1992 United Nations Development Program Report, which showed that distribution of global income is very uneven, with the richest 20% of the world's population generating 82.7% of the world's income.[9] Among nations, the Gini index shows that wealth distributions vary substantially around this norm.
+
+
+In computer science the Pareto principle can be applied to optimization efforts.[17] For example, Microsoft noted that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in a given system would be eliminated.[18] Lowell Arthur expressed that "20% of the code has 80% of the errors. Find them, fix them!"[19] It was also discovered that in general the 80% of a certain piece of software can be written in 20% of the total allocated time. Conversely, the hardest 20% of the code takes 80% of the time. This factor is usually a part of COCOMO estimating for software coding.
+
+WordPerfect and other software developers identify what customers want most of the time and how they want to do it: the 80/20 rule (people use 20% of a program’s functions 80% of the time). Software developers work to make high-use functions as simple and automatic and inevitable as possible.[20]
+
+Bloque de código con sintaxis resaltada
+
+#### Referencias
+
+- Debinsky, A. (1982). Improving Marketing Productivity: The 80/20. Fuente:https://journals.sagepub.com/doi/abs/10.2307/41164996
+
+- Taylor, P. (2010). The lazy project manager: the art of productive laziness. Paper presented at PMI® Global Congress 2010—North America, Washington, DC. Newtown Square, PA: Project Management Institute.
+
+##### Título 5 o h5
+###### Título 6 o h6
+
+- Lista
+- Con viñetas
+
+1. Lista
+2. Numerada
+
+**Negritas**
+*Itálica*
+***Itálica & negritas juntas***
+`Código`
+{
+    
+}
+
+Línea horizontal \\
+
+*******
