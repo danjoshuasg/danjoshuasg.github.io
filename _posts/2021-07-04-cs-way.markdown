@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "What is Pareto´s rule and how to use it to improve your productivity"
-date: 2020-01-27 23:45:13 -0400
-background: '/img/posts/02.jpg'
+title: "¿Qué es la regla de Pareto?"
+subtitle:  Y el porqué de usarla nos ayudaría a ser más productivos.
+date: 2021-04-07 
+background: '/img/posts/01.jpg'
 ---
 
-## Background
+## De la teoría a la práctica.
 
 Have you heard that something takes more time in the first intend? It could'nt seem 
 
