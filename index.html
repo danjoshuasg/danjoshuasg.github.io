@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
     <!----Navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container flex-lg-column">
@@ -54,8 +54,8 @@
         <section id="home" class="full-height px-lg-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
-                        <h1 class="display-4 fw-bold"> I'M A <span class="text-brand">AI DEVELOPER & DATA SCIENTIST</span> FROM PERU</h1>
+                    <div class="col-lg-10">
+                        <h1 class="display-4 fw-bold " data-aos="fade-up"> I'M A <span class="text-brand">AI DEVELOPER & DATA SCIENTIST</span> FROM PERU</h1>
                         <p class="lead mt-2 mb-4"> I am Dan Joshua, I will show you how create AI's tools and build solutions based in data from scratch</p>
                         <a href="#projects" class="btn btn-brand me-3">Explore my projects</a>
                         <a href="#" class="link-custom"> Call: (+51) 947596332</a>
@@ -101,8 +101,46 @@
         <section id="courses" class="full-height px-lg-5">
             <div class="container">
                 <div class="row pb-4">
-                    <h6 class="text-brand">COURSES</h6>
-                    <h3>Do you want to learn? There are some courses that might interest you.</h3>
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">COURSES</h6>
+                        <h3>Do you want to learn? There are some courses that might interest you.</h3>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="course p-4 bg-base rounded-3 shadow-effect">
+                            <div class="iconbox rounded-3">
+                                <i class="las la-brain"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2 bs-titles">Artificial Intelligence applied</h5>
+                            <p>I will teach you how to build programs based on artificial intelligence to solve specific tasks.<br>Programming Languages:<br>C++, Java, Python</p>
+                            <a href="#courses" class="link-custom">Enroll up</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="course p-4 bg-base rounded-3 shadow-effect">
+                            <div class="iconbox rounded-3">
+                                <i class="las la-chart-area"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2 bs-titles">Data Science from scratch</h5>
+                            <p>I will guide you through the process of collecting, treating, modeling and presenting the data appropriately.<br>Programming Languages:<br>R, Python</p>
+                            <a href="#courses" class="link-custom">Enroll up</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="course p-4 bg-base rounded-3 shadow-effect">
+                            <div class="iconbox rounded-3">
+                                <i class="las la-flask"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2 bs-titles">Data driven tools for science</h5>
+                            <p>I will teach you how to extract data, validate heuristics and models for data-driven scientific research.<br>Programming Languages:<br>R, Python</p>
+                            <a href="#courses" class="link-custom">Enroll up</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
