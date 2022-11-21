@@ -172,6 +172,9 @@ img{
 #contact input.form-control{
     height: 44px;
 }
+form .btn-brand{
+    cursor: pointer;
+}
 
 .social-icons {
 
@@ -187,3 +190,4 @@ img{
     border-radius: 100px;
     font-size: 24px;
 }
+
