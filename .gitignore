@@ -1,0 +1,6 @@
+# Manim: ignorar caché y archivos intermedios, conservar solo el render final
+media/**/partial_movie_files/
+media/images/
+media/texts/
+media/Tex/
+**/__pycache__/
