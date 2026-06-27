@@ -1,0 +1,34 @@
+# Despliegue con escalado horizontal: API + Redis + N workers.
+# (Para un solo nodo sin cola, basta `docker run` de la imagen → modo threadpool.)
+services:
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+
+  api:
+    build: .
+    environment:
+      REDIS_URL: redis://redis:6379/0
+    ports:
+      - "8000:8000"
+    volumes:
+      - media:/app/media
+    depends_on:
+      - redis
+    restart: unless-stopped
+
+  worker:
+    build: .
+    command: python worker.py
+    environment:
+      REDIS_URL: redis://redis:6379/0
+    volumes:
+      - media:/app/media          # comparte los MP4 con la API
+    depends_on:
+      - redis
+    deploy:
+      replicas: 2                  # 2 renders en paralelo; sube según CPU
+    restart: unless-stopped
+
+volumes:
+  media:

@@ -1,0 +1,15 @@
+# Núcleo de render
+manim==0.20.1
+
+# API
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.4
+
+# Cola opcional (escalado horizontal) — solo si usas REDIS_URL
+redis==5.2.1
+rq==2.1.0
+
+# Tests
+pytest==8.3.4
+httpx==0.28.1

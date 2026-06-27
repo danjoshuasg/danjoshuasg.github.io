@@ -1,3 +1,5 @@
 # Salidas intermedias de Manim
 __pycache__/
 media/
+.pytest_cache/
+*.pyc

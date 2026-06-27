@@ -21,6 +21,10 @@ obtener exactamente el mismo resultado.
 | **Motor** | `engine.py` | Carga el manifiesto y ejecuta los renders de forma determinista |
 | **Escenas** | `uni_*.py` | Una clase `Scene`/`ThreeDScene` por problema (la "lógica visual") |
 | **Manifiesto de salida** | `render_manifest.json` | Hashes + tamaños de cada MP4 producido (auditoría) |
+| **API** | `api.py` | Servicio REST (FastAPI) sobre el motor |
+| **Worker** | `worker.py` | Consumidor RQ para escalado horizontal (opcional) |
+| **Imagen** | `Dockerfile`, `docker-compose.yml` | Contenedor con toda la cadena de render |
+| **Tests** | `tests/` | Unitarios + integración (render determinista) |
 
 ## Documentos
 
@@ -43,4 +47,34 @@ python engine.py list            # listar problemas registrados
 python engine.py render uni-p30  # renderizar uno (imprime su SHA-256)
 python engine.py render-all      # renderizar todos + escribir render_manifest.json
 python engine.py verify          # re-render y comparar hashes (reproducibilidad)
+```
+
+## Levantar la API
+
+```bash
+pip install -r requirements.txt
+export MANIM_BIN=$(which manim)
+uvicorn api:app --port 8000
+
+# pedir un render y consultar su estado
+curl -X POST localhost:8000/renders -H 'Content-Type: application/json' -d '{"id":"uni-p30"}'
+curl localhost:8000/renders/<job_id>
+```
+
+## Desplegar con Docker (API + Redis + workers)
+
+```bash
+docker compose up --build          # API en :8000, 2 workers de render, Redis
+# escalar workers: docker compose up --scale worker=4
+```
+
+- **Sin cola** (un nodo): `docker build -t manim-uni . && docker run -p 8000:8000 manim-uni`
+  → la API usa un ThreadPoolExecutor interno (`RENDER_WORKERS`).
+- **Con cola** (multi-nodo): define `REDIS_URL` y corre `worker.py` (lo hace compose).
+
+## Tests
+
+```bash
+pytest -m "not slow"   # rápidos (manifiesto, escenas, API)
+pytest -m slow         # render real + verificación de hash determinista
 ```

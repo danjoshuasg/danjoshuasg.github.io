@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+media/
+.git/
+.pytest_cache/
+render_manifest.json
