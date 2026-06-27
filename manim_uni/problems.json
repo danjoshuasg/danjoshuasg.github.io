@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "engine": "manim-community-0.20.1",
+  "render_profile": {
+    "quality": "-qh",
+    "resolution": "1920x1080",
+    "fps": 60,
+    "flags": ["--disable_caching"],
+    "env": { "PYTHONHASHSEED": "0", "TZ": "UTC" }
+  },
+  "problems": [
+    {
+      "id": "uni-2025-demo",
+      "source": { "exam": "UNI (demo)", "question": null, "topic": "Álgebra · Funciones" },
+      "statement": "Sea f(x)=x^2-4x+3. Calcular el área del triángulo de intersecciones con los ejes.",
+      "scene_file": "uni2025.py",
+      "scene_class": "SolucionUNI",
+      "dimension": "2D",
+      "answer": { "clave": null, "valor": "3 u^2" }
+    },
+    {
+      "id": "uni-2025-p22",
+      "source": { "exam": "UNI 2025", "question": 22, "topic": "Suficiencia de datos" },
+      "statement": "Hallar el área del triángulo ABC en el rectángulo ADEC con AC=8.",
+      "scene_file": "uni2025_p22.py",
+      "scene_class": "PreguntaUNI22",
+      "dimension": "2D",
+      "answer": { "clave": "D", "valor": "24 u^2" }
+    },
+    {
+      "id": "uni-2024-p31",
+      "source": { "exam": "UNI 2024-1", "question": 31, "topic": "Geometría · Ángulos" },
+      "statement": "Triángulo AED, F-E-D colineales, EC=CD, AB=BE, m(AEF)=2 m(BEC). Hallar m(BEC).",
+      "scene_file": "uni2024_p31.py",
+      "scene_class": "PreguntaUNI31",
+      "dimension": "2D",
+      "answer": { "clave": "A", "valor": "36°" }
+    },
+    {
+      "id": "uni-p23-3d",
+      "source": { "exam": "UNI", "question": 23, "topic": "Geometría del espacio · Semiesferas" },
+      "statement": "Dos semiesferas de radios R y r; AP=2√13, BP=4. Hallar el área de la semiesfera mayor.",
+      "scene_file": "uni_p23_3d.py",
+      "scene_class": "Problema3D",
+      "dimension": "3D",
+      "answer": { "clave": "E", "valor": "50π cm^2" }
+    },
+    {
+      "id": "uni-p30",
+      "source": { "exam": "UNI", "question": 30, "topic": "Áreas · Tangencia" },
+      "statement": "Semicircunferencia AB, incírculo del triángulo AHB; [AEB]=48. Hallar BH.",
+      "scene_file": "uni_p30.py",
+      "scene_class": "PreguntaUNI30",
+      "dimension": "2D",
+      "answer": { "clave": "D", "valor": "5√6 m (reconstrucción)" }
+    }
+  ]
+}

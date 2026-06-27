@@ -1,0 +1,67 @@
+{
+  "engine": "manim-community-0.20.1",
+  "render_profile": {
+    "quality": "-qh",
+    "resolution": "1920x1080",
+    "fps": 60,
+    "flags": [
+      "--disable_caching"
+    ],
+    "env": {
+      "PYTHONHASHSEED": "0",
+      "TZ": "UTC"
+    }
+  },
+  "renders": [
+    {
+      "id": "uni-2025-demo",
+      "scene_file": "uni2025.py",
+      "scene_class": "SolucionUNI",
+      "video_path": "media/videos/uni2025/1080p60/SolucionUNI.mp4",
+      "sha256": "a7253b4bccbbdae9f9b7526aa691e3faa787eea88cde402b7d86d74732188347",
+      "size_bytes": 1772704,
+      "ok": true,
+      "log_tail": "Animation 39: FadeIn(Text('Hecho con Manim · estilo UNI')):   0%|          | 0/60 [00:00<?, ?it/s]\nAnimation 39: FadeIn(Text('Hecho con Manim · estilo UNI')):  22%|██▏       | 13/60 [00:00<00:00, 128.87it/s]\nAnimation 39: FadeIn(Text('Hecho con Manim · estilo UNI')):  47%|████▋     | 28/60 [00:00<00:00, 136.51it/s]\nAnimation 39: FadeIn(Text('Hecho con Manim · estilo UNI')):  72%|███████▏  | 43/60 [00:00<00:00, 138.81it/s]\nAnimation 39: FadeIn(Text('Hecho con Manim · estilo UNI')):  95%|█████████▌| 57/60 [00:00<00:00, 125.20it/s]\n                                                                                                            "
+    },
+    {
+      "id": "uni-2025-p22",
+      "scene_file": "uni2025_p22.py",
+      "scene_class": "PreguntaUNI22",
+      "video_path": "media/videos/uni2025_p22/1080p60/PreguntaUNI22.mp4",
+      "sha256": "b408cd2b389dfb5b237bc00598f0676a7992f2ba40b2fad875d5977e560df81b",
+      "size_bytes": 1520036,
+      "ok": true,
+      "log_tail": "Animation 38: FadeIn(Text('Resuelto y animado con Manim')):  18%|█▊        | 11/60 [00:00<00:00, 108.07it/s]\nAnimation 38: FadeIn(Text('Resuelto y animado con Manim')):  38%|███▊      | 23/60 [00:00<00:00, 114.03it/s]\nAnimation 38: FadeIn(Text('Resuelto y animado con Manim')):  58%|█████▊    | 35/60 [00:00<00:00, 109.78it/s]\nAnimation 38: FadeIn(Text('Resuelto y animado con Manim')):  78%|███████▊  | 47/60 [00:00<00:00, 109.12it/s]\nAnimation 38: FadeIn(Text('Resuelto y animado con Manim')):  97%|█████████▋| 58/60 [00:00<00:00, 102.35it/s]\n                                                                                                            "
+    },
+    {
+      "id": "uni-2024-p31",
+      "scene_file": "uni2024_p31.py",
+      "scene_class": "PreguntaUNI31",
+      "video_path": "media/videos/uni2024_p31/1080p60/PreguntaUNI31.mp4",
+      "sha256": "eefea7916e703e7ebb7cc7a60dc7bccf36756085fda5d98a20db56bdd650f53c",
+      "size_bytes": 985777,
+      "ok": true,
+      "log_tail": "Animation 29: FadeIn(Text('Resuelto y animado con Manim')):   0%|          | 0/60 [00:00<?, ?it/s]\nAnimation 29: FadeIn(Text('Resuelto y animado con Manim')):  22%|██▏       | 13/60 [00:00<00:00, 122.70it/s]\nAnimation 29: FadeIn(Text('Resuelto y animado con Manim')):  43%|████▎     | 26/60 [00:00<00:00, 124.53it/s]\nAnimation 29: FadeIn(Text('Resuelto y animado con Manim')):  65%|██████▌   | 39/60 [00:00<00:00, 124.36it/s]\nAnimation 29: FadeIn(Text('Resuelto y animado con Manim')):  87%|████████▋ | 52/60 [00:00<00:00, 122.46it/s]\n                                                                                                            "
+    },
+    {
+      "id": "uni-p23-3d",
+      "scene_file": "uni_p23_3d.py",
+      "scene_class": "Problema3D",
+      "video_path": "media/videos/uni_p23_3d/1080p60/Problema3D.mp4",
+      "sha256": "2baf86c78c4bbd2068fec8bb9839548529a920b52cf33fabb72f58f40bc9c966",
+      "size_bytes": 2464604,
+      "ok": true,
+      "log_tail": "Animation 21: FadeIn(MathTex('\\\\textbf{Clave: E}')):   0%|          | 0/60 [00:00<?, ?it/s]\nAnimation 21: FadeIn(MathTex('\\\\textbf{Clave: E}')):  22%|██▏       | 13/60 [00:00<00:00, 127.79it/s]\nAnimation 21: FadeIn(MathTex('\\\\textbf{Clave: E}')):  45%|████▌     | 27/60 [00:00<00:00, 132.21it/s]\nAnimation 21: FadeIn(MathTex('\\\\textbf{Clave: E}')):  68%|██████▊   | 41/60 [00:00<00:00, 134.78it/s]\nAnimation 21: FadeIn(MathTex('\\\\textbf{Clave: E}')):  92%|█████████▏| 55/60 [00:00<00:00, 128.48it/s]\n                                                                                                     "
+    },
+    {
+      "id": "uni-p30",
+      "scene_file": "uni_p30.py",
+      "scene_class": "PreguntaUNI30",
+      "video_path": "media/videos/uni_p30/1080p60/PreguntaUNI30.mp4",
+      "sha256": "23f4da11bf8ecc46c5a3654c287ad55e3db7a6586e5400654ce297a7ca59bcac",
+      "size_bytes": 879878,
+      "ok": true,
+      "log_tail": "Animation 21: FadeIn(Text('Resuelto y animado con Manim')):   0%|          | 0/60 [00:00<?, ?it/s]\nAnimation 21: FadeIn(Text('Resuelto y animado con Manim')):  18%|█▊        | 11/60 [00:00<00:00, 105.17it/s]\nAnimation 21: FadeIn(Text('Resuelto y animado con Manim')):  40%|████      | 24/60 [00:00<00:00, 116.84it/s]\nAnimation 21: FadeIn(Text('Resuelto y animado con Manim')):  62%|██████▏   | 37/60 [00:00<00:00, 118.82it/s]\nAnimation 21: FadeIn(Text('Resuelto y animado con Manim')):  82%|████████▏ | 49/60 [00:00<00:00, 117.29it/s]\n                                                                                                            "
+    }
+  ]
+}
